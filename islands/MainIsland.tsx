@@ -355,7 +355,7 @@ export default function MainIsland() {
   // button handlers
   const handleSubmit = async () => {
     setIsLoading(true)
-    let base = "http://trajapi.moonstripe.com/api/sim_parameters"
+    let base = "https://trajapi.moonstripe.com/api/sim_parameters"
 
     let params = "?"
 
